@@ -24,7 +24,7 @@
     <header class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid mx-5">
-          <a class="navbar-brand flex-grow-1 text-primary fw-bolder" href="#">KNEvents</a>
+          <a class="navbar-brand flex-grow-1 text-primary fw-bolder" href="./index.html">KNEvents</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -39,17 +39,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-primary" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-primary" aria-current="page" href="#"
+                <a class="nav-link active text-primary" aria-current="page" href="#about"
                   >About</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-primary"
-                  href="#"
+                  href="#speakers"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -57,15 +57,15 @@
                   Speakers
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Sony Crystal</a></li>
-                  <li><a class="dropdown-item" href="#">Edith Moore</a></li>
-                  <li><a class="dropdown-item" href="#">Nicholas Smith</a></li>
+                  <li><a class="dropdown-item" href="#speakers">Sony Crystal</a></li>
+                  <li><a class="dropdown-item" href="#speakers">Edith Moore</a></li>
+                  <li><a class="dropdown-item" href="#speakers">Nicholas Smith</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-primary"
-                  href="#"
+                  href="./index.html"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -73,10 +73,10 @@
                   Schedule
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">5-JANUARY-2025</a></li>
-                  <li><a class="dropdown-item" href="#">7-JANUARY-2025</a></li>
+                  <li><a class="dropdown-item" href="./index.html">5-JANUARY-2025</a></li>
+                  <li><a class="dropdown-item" href="./index.html">7-JANUARY-2025</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">9-JANUARY-2025</a>
+                    <a class="dropdown-item" href="./index.html">9-JANUARY-2025</a>
                   </li>
                 </ul>
               </li>
@@ -100,9 +100,9 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex" role="search" >
               <button class="btn btn-outline-primary" type="submit">
-                Register
+               <a href="#contact" class="text-decoration-none">Register</a> 
               </button>
             </form>
           </div>
@@ -137,7 +137,7 @@
     <main class="container">
       <div class="row align-items-center justify-content-center p-1">
         <div class="col">
-          <h6 class="text-primary fw-bolder">ABOUT EVENT</h6>
+          <h6 class="text-primary fw-bolder" id="about">ABOUT EVENT</h6>
           <h1>BIGGEST 2025 PERSONAL GROWTH CONFERENCE.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -153,7 +153,7 @@
           />
         </div>
       </div>
-      <h5 class="text-primary">MEET OUR SPEAKERS</h5>
+      <h5 class="text-primary" id="speakers">MEET OUR SPEAKERS</h5>
       <div class="card-group gap-2">
         <div class="card">
           <img
@@ -161,7 +161,7 @@
             class="card-img-top"
             alt="guest speaker"
           />
-          <div class="card-body">
+          <div class="card-body" id="speakers">
             <h5 class="card-title fw-bolder text-primary">SONY CRYSTAL</h5>
             <p class="card-text fw-bold">Financial Development</p>
             <p class="card-text">
@@ -177,7 +177,7 @@
             class="card-img-top"
             alt="guest speaker"
           />
-          <div class="card-body">
+          <div class="card-body" id="speakers">
             <h5 class="card-title text-primary fw-bolder">EDITH MOORE</h5>
             <p class="card-text fw-bold">Life Coach</p>
             <p class="card-text">
@@ -193,7 +193,7 @@
             class="card-img-top"
             alt="guest speaker"
           />
-          <div class="card-body">
+          <div class="card-body" id="speakers">
             <h5 class="card-title text-primary fw-bolder">NICHOLAS SMITH</h5>
             <p class="card-text fw-bold">Motivational Speaker</p>
             <p class="card-text">
@@ -244,7 +244,7 @@
       </div>
       <div class="row row-cols-1 row-cols-md-2 align-items-center">
         <form class="mt-5">
-          <h5 class="text-primary fw-bold">REGISTER NOW</h5>
+          <h5 class="text-primary fw-bold" id="contact">REGISTER NOW</h5>
           <div class="mb-3">
             <label for="exampleInputUsername" class="form-label"
               >Full Name</label
