@@ -19,12 +19,22 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bg-">
+  <body style="font-family: Parkinsans, sans-serif">
     <header class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid mx-5">
-          <a class="navbar-brand flex-grow-1 text-primary fw-bolder" href="./index.html">KNEvents</a>
+          <a
+            class="navbar-brand flex-grow-1 text-primary fw-bolder"
+            href="./index.html"
+            >KNEvents</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -39,10 +49,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-primary" aria-current="page" href="./index.html">Home</a>
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-primary" aria-current="page" href="#about"
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="#about"
                   >About</a
                 >
               </li>
@@ -57,9 +75,15 @@
                   Speakers
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#speakers">Sony Crystal</a></li>
-                  <li><a class="dropdown-item" href="#speakers">Edith Moore</a></li>
-                  <li><a class="dropdown-item" href="#speakers">Nicholas Smith</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#speakers">Sony Crystal</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#speakers">Edith Moore</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#speakers">Nicholas Smith</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -73,10 +97,25 @@
                   Schedule
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./index.html">5-JANUARY-2025</a></li>
-                  <li><a class="dropdown-item" href="./index.html">7-JANUARY-2025</a></li>
                   <li>
-                    <a class="dropdown-item" href="./index.html">9-JANUARY-2025</a>
+                    <a class="dropdown-item" href="./index.html"
+                      >5-JANUARY-2025 <br />
+                      <span class="text-primary">9am to 12noon</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./index.html"
+                      >7-JANUARY-2025 <br>
+                      <span class="text-primary">9am to 12noon</span>
+                      </a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./index.html"
+                      >9-JANUARY-2025 <br>
+                      <span class="text-primary">9am to 12noon</span>
+                      </a
+                    >
                   </li>
                 </ul>
               </li>
@@ -100,9 +139,9 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search" >
+            <form class="d-flex" role="search">
               <button class="btn btn-outline-primary" type="submit">
-               <a href="#contact" class="text-decoration-none">Register</a> 
+                <a href="#contact" class="text-decoration-none">Register</a>
               </button>
             </form>
           </div>
@@ -121,23 +160,29 @@
             UPCOMING NEW EVENT 2025
           </h6>
           <h5 class="">HURRY UP!! COME BE A PART</h5>
-          <h1 class="card-text fw-bolder">BIGGEST PERSONAL GROWTH CONFERENCE</h1>
+          <h1 class="card-text fw-bolder">
+            BIGGEST PERSONAL GROWTH CONFERENCE
+          </h1>
           <div class="d-flex justify-content-center gap-2">
             <p class="card-text fw-bold">
-              <small><i class="bi bi-globe-europe-africa fs-5 text-primary"></i></small>NAJJEERA,
-              UGANDA
+              <small
+                ><i
+                  class="bi bi-globe-europe-africa fs-5 text-primary"
+                ></i></small
+              >NAJJEERA, UGANDA
             </p>
             <p class="card-text fw-bold">
-              <small><i class="bi bi-calendar3 fs-5 text-primary"></i></small>JANUARY 5 TO 9, 2025
+              <small><i class="bi bi-calendar3 fs-5 text-primary"></i></small
+              >JANUARY 5 TO 9, 2025
             </p>
           </div>
         </div>
       </div>
     </header>
     <main class="container">
-      <div class="row align-items-center justify-content-center p-1">
+      <div class="row align-items-center justify-content-center p-1" id="about">
         <div class="col">
-          <h6 class="text-primary fw-bolder" id="about">ABOUT EVENT</h6>
+          <h6 class="text-primary fw-bolder">ABOUT EVENT</h6>
           <h1>BIGGEST 2025 PERSONAL GROWTH CONFERENCE.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -153,7 +198,7 @@
           />
         </div>
       </div>
-      <h5 class="text-primary" id="speakers">MEET OUR SPEAKERS</h5>
+      <h5 class="text-primary mt-2 fw-bold" id="speakers">MEET OUR SPEAKERS</h5>
       <div class="card-group gap-2">
         <div class="card">
           <img
@@ -205,7 +250,7 @@
         </div>
       </div>
       <div>
-        <h5 class="text-primary">WHY JOIN THE CONFERENCE</h5>
+        <h5 class="text-primary mt-2 fw-bold">WHY JOIN THE CONFERENCE</h5>
         <div class="row row-cols-1 row-cols-md-3 g-2 text-center">
           <div class="col">
             <div class="card">
